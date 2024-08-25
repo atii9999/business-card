@@ -1,0 +1,47 @@
+.flex{
+    display: flex;
+}
+.flexColumn{
+    flex-direction: column;
+}
+
+.block{
+    display: block;
+}
+
+.main{
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 25px;
+}
+
+.langSection{
+    display: flex;
+    margin-left: 10px;
+    gap: 1%;
+}
+
+.langCard{
+    width: 24%;
+}
+
+.langCard img{
+    width: 100%;
+}
+
+.langCard span{
+    font-weight: bold;
+}
+
+.form{
+    width: 125px;
+}
+.doneButton{
+    width: 125px;
+    margin-top: 20px;
+    background-color: #da9e9e;
+    color: #ffffff;
+    
+}
